@@ -153,7 +153,6 @@ Information about house
 Media queries
 *************************************************************************************/
 
-/* for 980px or less */
 @media screen and (max-width: 980px) {
 
     .listings .properties_list .picture {
@@ -165,7 +164,7 @@ Media queries
     }
 
     .googlemaps{
-        width: 600px;
+        width: 550px;
         height: 300px;
     }
 
@@ -178,7 +177,6 @@ Media queries
     }
 }
 
-/* for 700px or less */
 @media screen and (max-width: 600px) {
 
     .listings .properties_list .picture {
@@ -197,10 +195,13 @@ Media queries
     .contact_us button {
         margin-left: 300px;
     }
+
+    #houseImage {
+        width: 415px;
+    }
 }
 
-/* for 700px or less */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 425px) {
 
     .listings .properties_list .picture {
         width: 95%;
@@ -217,5 +218,33 @@ Media queries
 
     .contact_us button {
         margin-left: 150px;
+    }
+
+    #houseImage {
+        width: 340px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+
+    .listings .properties_list .picture {
+        width: 95%;
+    }
+
+    .googlemaps {
+        width: 270px;
+        height: 150px;
+    }
+
+    .contact_us textarea {
+        width: 300px;
+    }
+
+    .contact_us button {
+        margin-left: 150px;
+    }
+
+    #houseImage {
+        width: 270px;
     }
 }
