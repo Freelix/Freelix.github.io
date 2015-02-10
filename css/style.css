@@ -16,6 +16,17 @@ h5 { font-size: .83em; margin: 1.5em 0 }
 h6 { font-size: .75em; margin: 1.67em 0 }
 h1, h2, h3, h4, h5, h6 { font-weight: bolder }
 
+.property_details h2 {
+    font-weight: bolder !important;
+    font-size: 1.3em !important;
+    color: black !important;
+}
+
+.property_details h3 {
+    font-size: 1em !important;
+    font-weight: normal;
+}
+
 /************************************************************************************
 Logo
 *************************************************************************************/
@@ -138,10 +149,7 @@ Information about house
 #houseImage {
     margin-right: 25px;
     margin-bottom: 15px;
-}
-
-.houseDescription {
-
+    float: left;
 }
 
 .contact_information label {
